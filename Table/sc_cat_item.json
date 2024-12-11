@@ -1,0 +1,533 @@
+{
+    "table": "sc_cat_item",
+    "fields": [
+      {
+        "element": "access_type",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "active",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "availability",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "billable",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "category",
+        "internal_type": "reference",
+        "reference": "sc_category",
+        "mandatory": "0"
+      },
+      {
+        "element": "checked_out",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "cost",
+        "internal_type": "decimal",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "custom_cart",
+        "internal_type": "reference",
+        "reference": "sys_ui_macro",
+        "mandatory": "0"
+      },
+      {
+        "element": "delivery_plan",
+        "internal_type": "reference",
+        "reference": "sc_cat_item_delivery_plan",
+        "mandatory": "0"
+      },
+      {
+        "element": "delivery_plan_script",
+        "internal_type": "script_plain",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "delivery_time",
+        "internal_type": "glide_duration",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "description",
+        "internal_type": "translated_html",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "display_price_property",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "entitlement_script",
+        "internal_type": "script_plain",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "flow_designer_flow",
+        "internal_type": "reference",
+        "reference": "sys_hub_flow",
+        "mandatory": "0"
+      },
+      {
+        "element": "fulfillment_automation_level",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "group",
+        "internal_type": "reference",
+        "reference": "sys_user_group",
+        "mandatory": "0"
+      },
+      {
+        "element": "hide_sp",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "icon",
+        "internal_type": "user_image",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "ignore_price",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "image",
+        "internal_type": "image",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "list_price",
+        "internal_type": "currency",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "location",
+        "internal_type": "reference",
+        "reference": "cmn_location",
+        "mandatory": "0"
+      },
+      {
+        "element": "make_item_non_conversational",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "mandatory_attachment",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "meta",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "mobile_hide_price",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "mobile_picture",
+        "internal_type": "user_image",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "mobile_picture_type",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "model",
+        "internal_type": "reference",
+        "reference": "cmdb_model",
+        "mandatory": "0"
+      },
+      {
+        "element": "name",
+        "internal_type": "translated_text",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_attachment_v2",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_cart",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_cart_v2",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_delivery_time_v2",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_order",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_order_now",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_proceed_checkout",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_quantity",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_quantity_v2",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_save_as_draft",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_search",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "no_wishlist_v2",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "omit_price",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "order",
+        "internal_type": "integer",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "ordered_item_link",
+        "internal_type": "reference",
+        "reference": "sc_ordered_item_link",
+        "mandatory": "0"
+      },
+      {
+        "element": "owner",
+        "internal_type": "reference",
+        "reference": "sys_user",
+        "mandatory": "0"
+      },
+      {
+        "element": "picture",
+        "internal_type": "user_image",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "preview",
+        "internal_type": "catalog_preview",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "price",
+        "internal_type": "price",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "published_ref",
+        "internal_type": "reference",
+        "reference": "sc_cat_item",
+        "mandatory": "0"
+      },
+      {
+        "element": "recurring_frequency",
+        "internal_type": "choice",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "recurring_price",
+        "internal_type": "price",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "request_method",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "roles",
+        "internal_type": "user_roles",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "sc_catalogs",
+        "internal_type": "glide_list",
+        "reference": "sc_catalog",
+        "mandatory": "0"
+      },
+      {
+        "element": "sc_ic_item_staging",
+        "internal_type": "reference",
+        "reference": "sc_ic_item_staging",
+        "mandatory": "0"
+      },
+      {
+        "element": "sc_ic_version",
+        "internal_type": "integer",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "sc_template",
+        "internal_type": "reference",
+        "reference": "sc_template",
+        "mandatory": "0"
+      },
+      {
+        "element": "short_description",
+        "internal_type": "translated_text",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "show_variable_help_on_load",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "start_closed",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "state",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "sys_id",
+        "internal_type": "GUID",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "taxonomy_topic",
+        "internal_type": "reference",
+        "reference": "topic",
+        "mandatory": "0"
+      },
+      {
+        "element": "template",
+        "internal_type": "reference",
+        "reference": "sys_template",
+        "mandatory": "0"
+      },
+      {
+        "element": "template_manager_roles",
+        "internal_type": "user_roles",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "type",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "use_sc_layout",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_asset_dot_step",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_asset_var",
+        "internal_type": "reference",
+        "reference": "item_option_new",
+        "mandatory": "0"
+      },
+      {
+        "element": "u_checklist",
+        "internal_type": "reference",
+        "reference": "checklist_template",
+        "mandatory": "0"
+      },
+      {
+        "element": "u_ci_dot_step",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_ci_var",
+        "internal_type": "reference",
+        "reference": "item_option_new",
+        "mandatory": "0"
+      },
+      {
+        "element": "u_default_assignment",
+        "internal_type": "reference",
+        "reference": "sys_user_group",
+        "mandatory": "0"
+      },
+      {
+        "element": "u_default_project",
+        "internal_type": "reference",
+        "reference": "pm_project",
+        "mandatory": "0"
+      },
+      {
+        "element": "u_due_date_function",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_dynamic_checklist",
+        "internal_type": "string",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_inactive_html",
+        "internal_type": "html",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_inactive_url",
+        "internal_type": "url",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_no_close_notification",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "u_no_requested_for_notification",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "vendor",
+        "internal_type": "reference",
+        "reference": "core_company",
+        "mandatory": "0"
+      },
+      {
+        "element": "version",
+        "internal_type": "integer",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "visible_bundle",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "visible_guide",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "visible_standalone",
+        "internal_type": "boolean",
+        "reference": null,
+        "mandatory": "0"
+      },
+      {
+        "element": "workflow",
+        "internal_type": "reference",
+        "reference": "wf_workflow",
+        "mandatory": "0"
+      }
+    ]
+  }
